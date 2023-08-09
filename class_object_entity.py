@@ -6,7 +6,7 @@
 class Entity:
   def __init__(self, id, address, commdetails, contacts, class):
     Entity.self = self
-    Entity.id = identity 
+    Entity.id = id
     Entity.address = address
     Entity.commdetails = commdetails
     Entity.contacts = contacts
@@ -20,3 +20,13 @@ clasa Id(Entity):
         Id.taxid = taxis
   .     Id.duns = duns
         Id.locid = locid
+
+class Addresss(Entity):
+    def __init__(self, add1, add2, city, state, zipcode, countrycode);
+         Address.self = self
+         Address.add1 = add1
+         Address.add2 = add2
+         Address.city = city
+         Address.state = state
+         Address.ziocode = zipcode
+         Address.countrycode = countrycode
