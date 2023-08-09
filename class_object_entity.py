@@ -30,3 +30,12 @@ class Addresss(Entity):
          Address.state = state
          Address.ziocode = zipcode
          Address.countrycode = countrycode
+
+class Commdetails(Entity):
+     def __init__(self, maintel, mainemail, directcontact, timezone, website)
+        Commdetails.self
+        Commdetails.mailtel
+        Commdetails.mainemail
+        Commdetails.directcontact
+        Commdetails.timezone
+        Commdetails.website
