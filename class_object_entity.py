@@ -13,7 +13,7 @@ class Entity:
     Entity.class = class
 
 clasa Id(Entity):
-    def __init__(self, name, uid, taxid, duns, locid):
+    def Id.__init__(self, name, uid, taxid, duns, locid):
         Id.self = self
         Id.name = name
         Id.uid = uid
@@ -22,7 +22,7 @@ clasa Id(Entity):
         Id.locid = locid
 
 class Addresss(Entity):
-    def __init__(self, add1, add2, city, state, zipcode, countrycode);
+    def Address.__init__(self, add1, add2, city, state, zipcode, countrycode);
          Address.self = self
          Address.add1 = add1
          Address.add2 = add2
@@ -32,7 +32,7 @@ class Addresss(Entity):
          Address.countrycode = countrycode
 
 class Commdetails(Entity):
-     def __init__(self, maintel, mainemail, directcontact, timezone, website)
+     def Commdetails.__init__(self, maintel, mainemail, directcontact, timezone, website)
         Commdetails.self
         Commdetails.mailtel
         Commdetails.mainemail
